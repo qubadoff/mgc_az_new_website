@@ -47,6 +47,7 @@
                     </div>
                 </header>
             </div>
+            <br/><br/>
             <div class="panel mt-6 lg:mt-8 xl:mt-10">
                 <div class="container max-w-lg">
                     <div class="post-content panel fs-6 md:fs-5" data-uc-lightbox="animation: scale">

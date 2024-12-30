@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Client;
 use App\Models\Faq;
 use App\Models\Service;
+use App\Models\Team;
 use Illuminate\View\View;
 
 class HomeController extends Controller
@@ -30,7 +31,9 @@ class HomeController extends Controller
 
     public function about(): View
     {
-        return view('Frontend.about');
+        $teams = Team::query()->orderBy('created_at', 'desc')->get();
+
+        return view('Frontend.about', compact('teams'));
     }
 
     public function faq(): View

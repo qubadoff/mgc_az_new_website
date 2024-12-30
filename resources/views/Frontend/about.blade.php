@@ -262,101 +262,21 @@
                                     </div>
                                 </header>
                                 <div class="row sm:child-cols-6 lg:child-cols-4 g-4 col-match" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});">
-                                    <div>
-                                        <div class="panel p-3 xl:p-4 bg-gray-25 rounded">
-                                            <div class="panel vstack gap-3 items-center text-center">
-                                                <img class="w-100 rounded" src="assets/images/team/member-01.jpg" alt="John Carter">
-                                                <div class="panel vsatck gap-2">
-                                                    <h4 class="h3 m-0"><a href="#" class="text-none" data-uc-cursor="md bg-white opacity-10">John Carter</a></h4>
-                                                    <span class="fs-4">CEO & Founder</span>
-                                                </div>
-                                                <div class="panel hstack gap-2 justify-center">
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-facebook"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-instagram"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-linkedin"></i></a>
+                                    @forelse($teams as $team)
+                                        <div>
+                                            <div class="panel p-3 xl:p-4 bg-gray-25 rounded">
+                                                <div class="panel vstack gap-3 items-center text-center">
+                                                    <img class="w-100 rounded" src="{{ url('/') }}/storage/{{ $team->image }}" alt="{{ $team->name }}">
+                                                    <div class="panel vsatck gap-2">
+                                                        <h4 class="h3 m-0"><a href="#" class="text-none" data-uc-cursor="md bg-white opacity-10">{{ $team->name }}</a></h4>
+                                                        <span class="fs-4">{{ $team->position }}</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <div class="panel p-3 xl:p-4 bg-gray-25 rounded">
-                                            <div class="panel vstack gap-3 items-center text-center">
-                                                <img class="w-100 rounded" src="assets/images/team/member-02.jpg" alt="Rice Smith">
-                                                <div class="panel vsatck gap-2">
-                                                    <h4 class="h3 m-0"><a href="#" class="text-none" data-uc-cursor="md bg-white opacity-10">Rice Smith</a></h4>
-                                                    <span class="fs-4">Financial Manager</span>
-                                                </div>
-                                                <div class="panel hstack gap-2 justify-center">
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-facebook"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-instagram"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="panel p-3 xl:p-4 bg-gray-25 rounded">
-                                            <div class="panel vstack gap-3 items-center text-center">
-                                                <img class="w-100 rounded" src="assets/images/team/member-03.jpg" alt="Olson James">
-                                                <div class="panel vsatck gap-2">
-                                                    <h4 class="h3 m-0"><a href="#" class="text-none" data-uc-cursor="md bg-white opacity-10">Olson James</a></h4>
-                                                    <span class="fs-4">Web Developer</span>
-                                                </div>
-                                                <div class="panel hstack gap-2 justify-center">
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-facebook"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-instagram"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="panel p-3 xl:p-4 bg-gray-25 rounded">
-                                            <div class="panel vstack gap-3 items-center text-center">
-                                                <img class="w-100 rounded" src="assets/images/team/member-04.jpg" alt="Jordan Grant">
-                                                <div class="panel vsatck gap-2">
-                                                    <h4 class="h3 m-0"><a href="#" class="text-none" data-uc-cursor="md bg-white opacity-10">Jordan Grant</a></h4>
-                                                    <span class="fs-4">UI/UX Designer</span>
-                                                </div>
-                                                <div class="panel hstack gap-2 justify-center">
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-facebook"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-instagram"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="panel p-3 xl:p-4 bg-gray-25 rounded">
-                                            <div class="panel vstack gap-3 items-center text-center">
-                                                <img class="w-100 rounded" src="assets/images/team/member-05.jpg" alt="Sam Bronson">
-                                                <div class="panel vsatck gap-2">
-                                                    <h4 class="h3 m-0"><a href="#" class="text-none" data-uc-cursor="md bg-white opacity-10">Sam Bronson</a></h4>
-                                                    <span class="fs-4">Sales Manager</span>
-                                                </div>
-                                                <div class="panel hstack gap-2 justify-center">
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-facebook"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-instagram"></i></a>
-                                                    <a href="#" class="btn w-48px h-48px btn-primary rounded-circle text-center" data-uc-cursor="md bg-white opacity-10"><i class="icon-1 unicon-logo-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="panel p-3 xl:p-4 bg-gray-25 rounded">
-                                            <div class="panel vstack gap-3 justify-center items-center text-center h-100">
-                                                <div class="panel w-80px h-80px bg-primary rounded cstack">
-                                                    <span><i class="icon-4 unicon-download-study text-white"></i></span>
-                                                </div>
-                                                <h3 class="h3 m-0">
-                                                    Come and join our <br class="d-none xl:d-block">
-                                                    amazing team
-                                                </h3>
-                                                <p class="fs-4">Our office is more than just a physical location; it's the  place where ideas turn into reality.</p>
-                                                <a class='fs-5 xl:fs-4 btn btn-sm xl:btn-md btn-primary text-none mb-1 w-fit' data-uc-cursor='md bg-white opacity-10' href='sign-up.html'>Join with us <i class="icon sm:icon-1 ms-1 unicon-arrow-up-right"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @empty
+                                        No Data !
+                                    @endforelse
                                 </div>
                             </div>
                         </div>

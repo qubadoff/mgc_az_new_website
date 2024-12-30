@@ -254,10 +254,8 @@
                             <div class="panel vstack justify-center items-center gap-4 sm:gap-6 xl:gap-8">
                                 <header>
                                     <div class="panel text-center vstack gap-2 items-center" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});">
-                                        <div class="fs-5 xl:fs-4 px-3 xl:px-4 py-1 rounded bg-gray-25 w-fit"><span>Team</span></div>
                                         <h1 class="title h3 sm:h2 xl:display-6 m-0">
-                                            Team Innovar: behind <br class="d-none md:d-block">
-                                            the great work audiences
+                                            Our Team
                                         </h1>
                                     </div>
                                 </header>

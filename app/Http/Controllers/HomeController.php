@@ -4,13 +4,16 @@ namespace App\Http\Controllers;
 
 use App\Models\Client;
 use App\Models\Faq;
+use App\Models\Service;
 use Illuminate\View\View;
 
 class HomeController extends Controller
 {
     public function index(): View
     {
-        return view('Frontend.index');
+        $services = Service::query()->orderBy('created_at', 'desc')->get();
+
+        return view('Frontend.index', compact('services'));
     }
 
     public function contact(): View

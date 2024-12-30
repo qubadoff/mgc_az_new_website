@@ -1,5 +1,8 @@
 @extends('Frontend.layouts.app')
 
+@section('title', $singleBlog->title)
+
+
 @section('content')
     <div id="wrapper" class="wrap">
         <article class="panel post type-post single-post py-6 lg:py-8 xl:py-10">

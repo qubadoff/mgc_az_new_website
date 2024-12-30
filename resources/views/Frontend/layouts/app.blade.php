@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MG Consulting</title>
-    <link rel="icon" type="image/png" href="{{ asset('') }}n.ico"/>
+    <title>@yield('title')</title>
+    <link rel="icon" type="image/png" href="{{ asset('') }}favicon.ico"/>
     <meta name="description" content="Full-featured, professional-looking software, saas and startup website template.">
     <meta name="keywords" content="saas, saas template, site template, software, startup, digital product, html5, landing, marketing, bootstrap, uikit3, agency, ai, digital agency, it solutions, nodejs">
-    <link rel="canonical" href="https://unistudio.co/html/Innovar">
+    <link rel="canonical" href="">
     <meta name="theme-color" content="#3e57ff">
 
     <!-- Open Graph Tags -->
@@ -16,9 +16,9 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Innovar">
     <meta property="og:description" content="Multi-purpose Marketing Agency & Startup Site Template.">
-    <meta property="og:url" content="../index.html">
-    <meta property="og:site_name" content="Innovar">
-    <meta property="og:image" content="../assets/images/common/seo-image.jpg">
+    <meta property="og:url" content="{{ route("index") }}">
+    <meta property="og:site_name" content="MG Consulting">
+    <meta property="og:image" content="">
     <meta property="og:image:width" content="1180">
     <meta property="og:image:height" content="600">
     <meta property="og:image:type" content="image/png">
@@ -27,9 +27,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Innovar">
     <meta name="twitter:description" content="Multi-purpose Marketing Agency & Startup Site Template.">
-    <meta name="twitter:image" content="../assets/images/common/seo-image.jpg">
+    <meta name="twitter:image" content="">
 
-    <link rel="canonical" href="../index.html">
+    <link rel="canonical" href="{{ route("index") }}">
 
     <!-- preload head styles -->
     <link rel="preload" href="{{ asset('') }}assets/css/unicons.min.css" as="style">

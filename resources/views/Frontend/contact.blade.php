@@ -1,5 +1,8 @@
 @extends('Frontend.layouts.app')
 
+@section('title', 'Contact Us')
+
+
 @section('content')
     <!-- Wrapper start -->
     <div id="wrapper" class="wrap">

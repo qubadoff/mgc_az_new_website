@@ -149,74 +149,33 @@
                         </div>
                         <div class="section-content panel">
                             <div class="grid sm:g-child-rows-12 g-child-cols-12 sm:g-child-cols-6 gap-3 lg:gap-4 xl:gap-6" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 600});">
-                                <div class="sm:g-row-span-12">
-                                    <article class="blog-item panel p-2 lg:p-3 xl:p-4 h-100 rounded bg-gray-25">
-                                        <div class="vstack justify-between items-start gap-3 lg:gap-4 h-100">
-                                            <div class="vstack gap-3 lg:gap-4">
-                                                <div class="panel">
-                                                    <div class="ratio ratio-4x3 rounded rounded uc-transition-toggle overflow-hidden">
-                                                        <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="{{ asset('') }}assets/images/blog/blog-01.jpg" alt="image">
-                                                    </div>
-                                                    <a class='position-cover' data-uc-cursor='md bg-white opacity-10' href='blog-detail.html'></a>
-                                                </div>
-                                                <header class="panel vstack items-start gap-1 sm:gap-2 xl:gap-3">
+                                @forelse($news as $n)
+                                    <div class="sm:g-row-span-6">
+                                        <article class="blog-item panel p-2 lg:p-3 xl:p-4 h-100 rounded bg-gray-25">
+                                            <div class="vstack justify-between items-start gap-3 h-100">
+                                                <header class="vstack gap-1 sm:gap-2 xl:gap-3">
                                                     <div class="hstack justify-between gap-2 mb-narrow sm:mb-0">
-                                                        <div class="fs-6 xl:fs-4 ft-secondary px-3 xl:px-4 py-1 rounded text-white bg-primary"><span>Development</span></div>
-                                                        <span class="fs-5 xl:fs-3">12 feb, 2023</span>
+                                                        <span class="fs-5 xl:fs-3">{{ date('d M Y', strtotime($n->created_at)) }}</span>
                                                     </div>
                                                     <h3 class="title h4 xl:h3 m-0">
-                                                        <a class='text-none' data-uc-cursor='md bg-white opacity-10' href='blog-detail.html'>Agency launches experts media expert workshops</a>
+                                                        <a class='text-none' data-uc-cursor='md bg-white opacity-10' href='{{ route('singleNews', ['slug' => $n->slug]) }}'>
+                                                            {{ $n->title }}
+                                                        </a>
                                                     </h3>
-                                                    <p class="fs-5 sm:fs-4 lg:fs-3 xl:fs-2">We believe in the synergy of human expertise and innovative technology.</p>
+                                                    <p class="desc fs-6 sm:fs-5 lg:fs-4 xl:fs-2">
+                                                        {{ $n->description }}
+                                                    </p>
                                                 </header>
+                                                <a class='btn btn-text fs-4 sm:fs-5 lg:fs-4 xl:fs-3 border-bottom gap-1 mt-1 text-primary' data-uc-cursor='md bg-white opacity-10' href='{{ route('singleNews', ['slug' => $n->slug]) }}'>
+                                                    <span>Read More</span>
+                                                    <i class="icon unicon-arrow-up-right"></i>
+                                                </a>
                                             </div>
-                                            <a class='btn btn-text fs-4 sm:fs-5 lg:fs-4 xl:fs-3 border-bottom gap-1 mt-1 text-primary' data-uc-cursor='md bg-white opacity-10' href='blog-detail.html'>
-                                                <span>Read More</span>
-                                                <i class="icon unicon-arrow-up-right"></i>
-                                            </a>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="sm:g-row-span-6">
-                                    <article class="blog-item panel p-2 lg:p-3 xl:p-4 h-100 rounded bg-gray-25">
-                                        <div class="vstack justify-between items-start gap-3 h-100">
-                                            <header class="vstack gap-1 sm:gap-2 xl:gap-3">
-                                                <div class="hstack justify-between gap-2 mb-narrow sm:mb-0">
-                                                    <div class="fs-6 xl:fs-4 ft-secondary px-3 xl:px-4 py-1 rounded text-white bg-primary"><span>Business</span></div>
-                                                    <span class="fs-5 xl:fs-3">12 feb, 2023</span>
-                                                </div>
-                                                <h3 class="title h4 xl:h3 m-0">
-                                                    <a class='text-none' data-uc-cursor='md bg-white opacity-10' href='blog-detail.html'>10 Proven strategies for marketing success</a>
-                                                </h3>
-                                                <p class="desc fs-6 sm:fs-5 lg:fs-4 xl:fs-2">We believe in the synergy of human expertise and innovative technology.</p>
-                                            </header>
-                                            <a class='btn btn-text fs-4 sm:fs-5 lg:fs-4 xl:fs-3 border-bottom gap-1 mt-1 text-primary' data-uc-cursor='md bg-white opacity-10' href='blog-detail.html'>
-                                                <span>Read More</span>
-                                                <i class="icon unicon-arrow-up-right"></i>
-                                            </a>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="sm:g-row-span-6">
-                                    <article class="blog-item panel p-2 lg:p-3 xl:p-4 h-100 rounded bg-gray-25">
-                                        <div class="vstack justify-between items-start gap-3 h-100">
-                                            <header class="vstack gap-1 sm:gap-2 xl:gap-3">
-                                                <div class="hstack justify-between gap-2 mb-narrow sm:mb-0">
-                                                    <div class="fs-6 xl:fs-4 ft-secondary px-3 xl:px-4 py-1 rounded text-white bg-primary"><span>Interior</span></div>
-                                                    <span class="fs-5 xl:fs-3">12 feb, 2023</span>
-                                                </div>
-                                                <h3 class="title h4 xl:h3 m-0">
-                                                    <a class='text-none' data-uc-cursor='md bg-white opacity-10' href='blog-detail.html'>How to effectively conduct market research</a>
-                                                </h3>
-                                                <p class="desc fs-6 sm:fs-5 lg:fs-4 xl:fs-2">We believe in the synergy of human expertise and innovative technology.</p>
-                                            </header>
-                                            <a class='btn btn-text fs-4 sm:fs-5 lg:fs-4 xl:fs-3 border-bottom gap-1 mt-1 text-primary' data-uc-cursor='md bg-white opacity-10' href='blog-detail.html'>
-                                                <span>Read More</span>
-                                                <i class="icon unicon-arrow-up-right"></i>
-                                            </a>
-                                        </div>
-                                    </article>
-                                </div>
+                                        </article>
+                                    </div>
+                                @empty
+                                    No Data !
+                                @endforelse
                             </div>
                         </div>
                     </div>

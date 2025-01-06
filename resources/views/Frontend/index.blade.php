@@ -197,9 +197,8 @@
                 <div class="section-inner panel overflow-hidden rounded px-2 sm:px-0 py-5 sm:py-6 lg:py-8 xl:py-9 bg-gradient-45n from-primary-400 to-primary rounded lg:rounded-3 text-white">
                     <div class="position-cover opacity-70 blend-multiply" data-src="../assets/images/common/footer-cta-bg.jpg" data-uc-img></div>
                     <div class="panel vstack items-center gap-2 lg:gap-3 max-w-500px lg:max-w-700px mx-auto text-center z-99" data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: anime.stagger(100, {start: 200});">
-                        <h2 class="h3 sm:h1 lg:display-6 m-0 text-white">Start scaling your business with Innovar</h2>
-                        <p class="fs-5 sm:fs-4 xl:fs-3 text-white text-opacity-80">14-day free trial. No credit card required.</p>
-                        <a class='btn btn-md xl:btn-lg btn-secondary text-primary fs-6 xl:fs-4 mt-2' data-uc-cursor='md bg-white opacity-10' href='page-contact.html'>
+                        <h2 class="h3 sm:h1 lg:display-6 m-0 text-white">Start scaling your business with MG Consulting LLC</h2>
+                        <a class='btn btn-md xl:btn-lg btn-secondary text-primary fs-6 xl:fs-4 mt-2' data-uc-cursor='md bg-white opacity-10' href='{{ route("contact") }}'>
                             <span>Get a quote</span>
                             <i class="icon icon-1 unicon-arrow-right d-none sm:d-block"></i>
                         </a>

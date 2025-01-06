@@ -15,9 +15,7 @@
                             </h1>
                         </div>
                         <figure class="featured-image m-0">
-                            <div class="ratio ratio-2x1 rounded rounded lg:rounded-2 uc-transition-toggle overflow-hidden">
-                                <img src="{{ url('/') }}/storage/{{ $singleTeam->image }}" alt="{{ $singleTeam->name }}">
-                            </div>
+                            <img src="{{ url('/') }}/storage/{{ $singleTeam->image }}" alt="{{ $singleTeam->name }}">
                         </figure>
                     </div>
                 </header>

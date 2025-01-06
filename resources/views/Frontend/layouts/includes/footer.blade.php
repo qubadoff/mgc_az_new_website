@@ -19,13 +19,13 @@
                                 </p>
                                 <ul class="nav-x gap-1">
                                     <li>
-                                        <a href="https://www.facebook.com/unistudioco" class="p-1 rounded-circle bg-gray-25 hover:bg-primary hover:text-white duration-250" data-uc-cursor="md bg-white opacity-10"><i class="icon icon-2 unicon-logo-facebook"></i></a>
+                                        <a href="https://www.facebook.com/" class="p-1 rounded-circle bg-gray-25 hover:bg-primary hover:text-white duration-250" data-uc-cursor="md bg-white opacity-10"><i class="icon icon-2 unicon-logo-facebook"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://x.com/unistudioco?mx=2" class="p-1 rounded-circle bg-gray-25 hover:bg-primary hover:text-white duration-250" data-uc-cursor="md bg-white opacity-10"><i class="icon icon-2 unicon-logo-twitter"></i></a>
+                                        <a href="https://x.com/" class="p-1 rounded-circle bg-gray-25 hover:bg-primary hover:text-white duration-250" data-uc-cursor="md bg-white opacity-10"><i class="icon icon-2 unicon-logo-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/unistudioco" class="p-1 rounded-circle bg-gray-25 hover:bg-primary hover:text-white duration-250" data-uc-cursor="md bg-white opacity-10"><i class="icon icon-2 unicon-logo-instagram"></i></a>
+                                        <a href="https://www.instagram.com/" class="p-1 rounded-circle bg-gray-25 hover:bg-primary hover:text-white duration-250" data-uc-cursor="md bg-white opacity-10"><i class="icon icon-2 unicon-logo-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>

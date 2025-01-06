@@ -16,7 +16,7 @@
                         </div>
                         <figure class="featured-image m-0">
                             <div class="ratio ratio-2x1 rounded rounded lg:rounded-2 uc-transition-toggle overflow-hidden">
-                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="{{ url('/') }}/storage/{{ $singleTeam->image }} }}" alt="{{ $singleTeam->name }}">
+                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="{{ url('/') }}/storage/{{ $singleTeam->image }}" alt="{{ $singleTeam->name }}">
                             </div>
                         </figure>
                     </div>

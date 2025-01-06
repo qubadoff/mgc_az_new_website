@@ -15,7 +15,7 @@
                             </h1>
                         </div>
                         <figure class="featured-image m-0">
-                            <img src="{{ url('/') }}/storage/{{ $singleTeam->image }}" alt="{{ $singleTeam->name }}" style="height: 500px; width: 300px;">
+                            <img src="{{ url('/') }}/storage/{{ $singleTeam->image }}" alt="{{ $singleTeam->name }}" style="height: 600px; width: 500px;">
                         </figure>
                     </div>
                 </header>

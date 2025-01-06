@@ -13,7 +13,8 @@ class HomeController extends Controller
 {
     public function index(): View
     {
-        $services = Service::query()->orderBy('created_at', 'desc')->get();
+        $services = Service::query()->orderBy('sort_order')->get();
+
         $news = Blog::query()->orderBy('created_at', 'desc')->paginate(6);
 
         return view('Frontend.index', compact('services', 'news'));
@@ -33,7 +34,7 @@ class HomeController extends Controller
 
     public function about(): View
     {
-        $teams = Team::query()->orderBy('created_at', 'desc')->get();
+        $teams = Team::query()->orderBy('sort_order')->get();
 
         return view('Frontend.about', compact('teams'));
     }
@@ -50,5 +51,12 @@ class HomeController extends Controller
         $singleBlog = Blog::query()->where('slug', $slug)->first();
 
         return view('Frontend.singleNews', compact('singleBlog'));
+    }
+
+    public function singleTeam(string $slug): View
+    {
+        $singleTeam = Team::query()->where('slug', $slug)->first();
+
+        return view('Frontend.singleTeam', compact('singleTeam'));
     }
 }

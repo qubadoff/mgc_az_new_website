@@ -9,240 +9,101 @@
         <!-- Hero start -->
         <div id="hero_header" class="hero-header section panel overflow-hidden" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});">
 
-            <!-- Section start-->
-            <div class="uni-about section panel overflow-hidden">
-                <div class="section-outer panel">
-                    <div class="container max-w-xl">
-                        <div class="section-inner panel vstack gap-4 sm:gap-6 xl:gap-9">
-                            <div class="section-header panel hstack justify-between items-end">
-                                <div class="vstack items-center sm:items-start text-center sm:text-start gap-2 xl:gap-3" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});">
-                                    <h3 class="title h3 sm:h2 xl:display-6 m-0">Business made <br class="d-none sm:d-block">easy with innovar</h3>
-                                </div>
-                            </div>
-                            <div class="section-content panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});">
-                                <div class="row child-cols-12 g-4 xl:g-6 col-match">
-                                    <div class="sm:col-2">
-                                        <div class="switcher-box panel">
-                                            <ul class="main-nav hstack sm:vstack sm:justify-between items-start gap-2 h-100 p-0 overflow-auto" data-uc-switcher="connect: .main-switcher; animation: uc-animation-fade;" style="list-style: none">
-                                                <li><a class="btn btn-sm sm:btn-md xl:btn-lg btn-primary-25 fs-5 sm:fs-4 xl:fs-3" href="#" data-uc-cursor="md bg-white opacity-10">2018</a></li>
-                                                <li><a class="btn btn-sm sm:btn-md xl:btn-lg btn-primary-25 fs-5 sm:fs-4 xl:fs-3" href="#" data-uc-cursor="md bg-white opacity-10">2019</a></li>
-                                                <li><a class="btn btn-sm sm:btn-md xl:btn-lg btn-primary-25 fs-5 sm:fs-4 xl:fs-3" href="#" data-uc-cursor="md bg-white opacity-10">2020</a></li>
-                                                <li><a class="btn btn-sm sm:btn-md xl:btn-lg btn-primary-25 fs-5 sm:fs-4 xl:fs-3" href="#" data-uc-cursor="md bg-white opacity-10">2021</a></li>
-                                                <li><a class="btn btn-sm sm:btn-md xl:btn-lg btn-primary-25 fs-5 sm:fs-4 xl:fs-3" href="#" data-uc-cursor="md bg-white opacity-10">2022</a></li>
-                                                <li><a class="btn btn-sm sm:btn-md xl:btn-lg btn-primary-25 fs-5 sm:fs-4 xl:fs-3" href="#" data-uc-cursor="md bg-white opacity-10">2023</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="sm:col-10">
-                                        <div class="main-switcher uc-switcher panel">
-                                            <article class="switcher-item panel">
-                                                <div class="row child-cols-12 items-center g-3 sm:g-4 lg:g-5 xl:g-6">
-                                                    <div class="sm:col-6 xl:col-5">
-                                                        <div class="ratio ratio-16x9 rounded rounded lg:rounded-2 overflow-hidden h-450px xl:h-500px">
-                                                            <img class="media-cover image" src="assets/images/about/01.jpg" alt="image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="sm:col">
-                                                        <div class="panel overflow-hidden">
-                                                            <div class="row child-cols-12 gy-5 sm:gy-4 xl:gy-4 sep-x" data-uc-grid>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Inception and launch</h3>
-                                                                        <p class="fs-5 lg:fs-4">Innovar was officially conceptualized and developed as a modern and versatile marketing consultancy..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Growing User Base</h3>
-                                                                        <p class="fs-5 lg:fs-4">Innovar saw significant traction in its first year, with thousands of clients reaching out..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Enhanced Features</h3>
-                                                                        <p class="fs-5 lg:fs-4">By 2020, Variuemhad established itself as a popular choice for B2B and B2C businesses..</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class="switcher-item panel">
-                                                <div class="row child-cols-12 items-center g-3 sm:g-4 lg:g-5 xl:g-6">
-                                                    <div class="sm:col-6 xl:col-5">
-                                                        <div class="ratio ratio-16x9 rounded rounded lg:rounded-2 overflow-hidden h-450px xl:h-500px">
-                                                            <img class="media-cover image" src="assets/images/about/02.jpg" alt="image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="sm:col">
-                                                        <div class="panel overflow-hidden">
-                                                            <div class="row child-cols-12 gy-5 sm:gy-4 xl:gy-4 sep-x" data-uc-grid>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Concept and Vision</h3>
-                                                                        <p class="fs-5 lg:fs-4">The idea for Innovar was born, aiming to create a versatile marketing consultancy..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Team Formation</h3>
-                                                                        <p class="fs-5 lg:fs-4">Conducted market research to identify gaps and opportunities in the industry..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Enhanced Features</h3>
-                                                                        <p class="fs-5 lg:fs-4">Brought together a team of experts to lay the foundation for Innovar..</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class="switcher-item panel">
-                                                <div class="row child-cols-12 items-center g-3 sm:g-4 lg:g-5 xl:g-6">
-                                                    <div class="sm:col-6 xl:col-5">
-                                                        <div class="ratio ratio-16x9 rounded rounded lg:rounded-2 overflow-hidden h-450px xl:h-500px">
-                                                            <img class="media-cover image" src="assets/images/about/03.jpg" alt="image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="sm:col">
-                                                        <div class="panel overflow-hidden">
-                                                            <div class="row child-cols-12 gy-5 sm:gy-4 xl:gy-4 sep-x" data-uc-grid>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Inception and launch</h3>
-                                                                        <p class="fs-5 lg:fs-4">Innovar was officially conceptualized and developed as a modern and versatile marketing consultancy..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Growing User Base</h3>
-                                                                        <p class="fs-5 lg:fs-4">Innovar saw significant traction in its first year, with thousands of clients reaching out..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Enhanced Features</h3>
-                                                                        <p class="fs-5 lg:fs-4">By 2020, Variuemhad established itself as a popular choice for B2B and B2C businesses..</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class="switcher-item panel">
-                                                <div class="row child-cols-12 items-center g-3 sm:g-4 lg:g-5 xl:g-6">
-                                                    <div class="sm:col-6 xl:col-5">
-                                                        <div class="ratio ratio-16x9 rounded rounded lg:rounded-2 overflow-hidden h-450px xl:h-500px">
-                                                            <img class="media-cover image" src="assets/images/about/04.jpg" alt="image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="sm:col">
-                                                        <div class="panel overflow-hidden">
-                                                            <div class="row child-cols-12 gy-5 sm:gy-4 xl:gy-4 sep-x" data-uc-grid>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Concept and Vision</h3>
-                                                                        <p class="fs-5 lg:fs-4">The idea for Innovar was born, aiming to create a versatile marketing consultancy..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Team Formation</h3>
-                                                                        <p class="fs-5 lg:fs-4">Conducted market research to identify gaps and opportunities in the industry..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Enhanced Features</h3>
-                                                                        <p class="fs-5 lg:fs-4">Brought together a team of experts to lay the foundation for Innovar..</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class="switcher-item panel">
-                                                <div class="row child-cols-12 items-center g-3 sm:g-4 lg:g-5 xl:g-6">
-                                                    <div class="sm:col-6 xl:col-5">
-                                                        <div class="ratio ratio-16x9 rounded rounded lg:rounded-2 overflow-hidden h-450px xl:h-500px">
-                                                            <img class="media-cover image" src="assets/images/about/05.jpg" alt="image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="sm:col">
-                                                        <div class="panel overflow-hidden">
-                                                            <div class="row child-cols-12 gy-5 sm:gy-4 xl:gy-4 sep-x" data-uc-grid>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Inception and launch</h3>
-                                                                        <p class="fs-5 lg:fs-4">Innovar was officially conceptualized and developed as a modern and versatile marketing consultancy..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Growing User Base</h3>
-                                                                        <p class="fs-5 lg:fs-4">Innovar saw significant traction in its first year, with thousands of clients reaching out..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Enhanced Features</h3>
-                                                                        <p class="fs-5 lg:fs-4">By 2020, Variuemhad established itself as a popular choice for B2B and B2C businesses..</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                            <article class="switcher-item panel">
-                                                <div class="row child-cols-12 items-center g-3 sm:g-4 lg:g-5 xl:g-6">
-                                                    <div class="sm:col-6 xl:col-5">
-                                                        <div class="ratio ratio-16x9 rounded rounded lg:rounded-2 overflow-hidden h-450px xl:h-500px">
-                                                            <img class="media-cover image" src="assets/images/about/06.jpg" alt="image">
-                                                        </div>
-                                                    </div>
-                                                    <div class="sm:col">
-                                                        <div class="panel overflow-hidden">
-                                                            <div class="row child-cols-12 gy-5 sm:gy-4 xl:gy-4 sep-x" data-uc-grid>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Concept and Vision</h3>
-                                                                        <p class="fs-5 lg:fs-4">The idea for Innovar was born, aiming to create a versatile marketing consultancy..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Team Formation</h3>
-                                                                        <p class="fs-5 lg:fs-4">Conducted market research to identify gaps and opportunities in the industry..</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div class="panel vstack gap-2 text-start">
-                                                                        <h3 class="h4 xl:h3 m-0">Enhanced Features</h3>
-                                                                        <p class="fs-5 lg:fs-4">Brought together a team of experts to lay the foundation for Innovar..</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="section-outer panel py-6 sm:py-8 xl:py-9" style="transform: translateY(0px); opacity: 1;">
+                <div class="container max-w-2xl">
+                    <div class="section-inner panel vstack gap-4 sm:gap-6 lg:gap-8 xl:gap-9">
+                        <div class="panel vstack items-center gap-2 lg:gap-4 mb-4 sm:mb-6 lg:mb-8 max-w-750px mx-auto text-center">
+                            <h1 class="h2 sm:h1 lg:display-6 xl:display-5 m-0">
+                                About us
+                            </h1>
+                            <p class="m-0 fs-5 sm:fs-4 xl:fs-3">
+                                <b>MG Consulting LLC</b> is a registered consulting company in Azerbaijan since 2014. Our company provides various services (legal, accounting, project management, etc) to its clients, which are mostly diplomatic missions and international organizations located in Azerbaijan (UNDP, UNICEF, Swiss Embassy, Embassy of Japan, ICNL, USAID, GIZ, ICMDP, etc.).
+
+                                <br/>
+
+                                The company has a multi-language team with extensive experience in managing complex projects, litigation, legislation reforms and other tasks. Our core team consists of two lawyers and three accounting/administration personnel.
+
+                                <br/>
+
+                                Examples of our multi-year projects include:
+
+                                <br/>
+
+                                • Socio-Economic Development Activity (SEDA) project with East-West Management Institute (EWMI);
+
+                                <br/>
+
+                                • Building Local Capacity for Development (BLCD) with Chemonics International;
+
+                                <br/>
+
+                                • Legally Enabling Environment, Project (LEEP) and SES project with International Center for Non-for-profit Law (ICNL).
+
+                                <br/>
+
+                                • USAID’s ECSOFT project (including public oversight platform ‘enezaret’);
+
+                                <br/>
+
+                                • CSO Meter project with ECNL/EU.
+                            </p>
                         </div>
+{{--                        <div class="panel">--}}
+{{--                            <div class="grid g-child-rows-12 gap-1 sm:gap-2 lg:gap-3 xl:gap-4">--}}
+{{--                                <div class="g-row-span-5 g-col-span-2 g-row-start-4 g-col-start-1 d-none sm:d-block">--}}
+{{--                                    <div class="panel h-100">--}}
+{{--                                        <div class="ratio ratio-1x1 rounded rounded-1 lg:rounded overflow-hidden h-100">--}}
+{{--                                            <img class="media-cover image" src="../assets/images/inner-pages/inner-about/img-02.jpg" alt="image">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="g-row-span-6 sm:g-row-span-5 g-col-span-3 sm:g-col-span-2 g-row-start-0 sm:g-row-start-2 g-col-start-0 sm:g-col-start-3">--}}
+{{--                                    <div class="panel h-100">--}}
+{{--                                        <div class="ratio ratio-1x1 rounded rounded-1 lg:rounded overflow-hidden h-100">--}}
+{{--                                            <img class="media-cover image" src="../assets/images/inner-pages/inner-about/img-03.jpg" alt="image">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="g-row-span-6 sm:g-row-span-5 g-col-span-3 sm:g-col-span-2 g-row-start-7 sm:g-row-start-7 g-col-start-0 sm:g-col-start-3">--}}
+{{--                                    <div class="panel h-100">--}}
+{{--                                        <div class="ratio ratio-1x1 rounded rounded-1 lg:rounded overflow-hidden h-100">--}}
+{{--                                            <img class="media-cover image" src="../assets/images/inner-pages/inner-about/img-04.jpg" alt="image">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="g-row-span-12 g-col-span-6 sm:g-col-span-4 g-col-start-4 sm:g-col-start-5">--}}
+{{--                                    <div class="panel">--}}
+{{--                                        <div class="ratio ratio-3x4 rounded rounded-1 lg:rounded overflow-hidden">--}}
+{{--                                            <img class="media-cover image" src="../assets/images/inner-pages/inner-about/img-01.jpg" alt="image">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="g-row-span-6 sm:g-row-span-5 g-col-span-3 sm:g-col-span-2 g-row-start-0 sm:g-row-start-2 g-col-start-10 sm:g-col-start-9">--}}
+{{--                                    <div class="panel h-100">--}}
+{{--                                        <div class="ratio ratio-1x1 rounded rounded-1 lg:rounded overflow-hidden h-100">--}}
+{{--                                            <img class="media-cover image" src="../assets/images/inner-pages/inner-about/img-05.jpg" alt="image">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="g-row-span-6 sm:g-row-span-5 g-col-span-3 sm:g-col-span-2 g-row-start-7 sm:g-row-start-7 g-col-start-10 sm:g-col-start-9">--}}
+{{--                                    <div class="panel h-100">--}}
+{{--                                        <div class="ratio ratio-1x1 rounded rounded-1 lg:rounded overflow-hidden h-100">--}}
+{{--                                            <img class="media-cover image" src="../assets/images/inner-pages/inner-about/img-06.jpg" alt="image">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="g-row-span-5 g-col-span-2 g-row-start-4 g-col-start-11 d-none sm:d-block">--}}
+{{--                                    <div class="panel h-100">--}}
+{{--                                        <div class="ratio ratio-1x1 rounded rounded-1 lg:rounded overflow-hidden h-100">--}}
+{{--                                            <img class="media-cover image" src="../assets/images/inner-pages/inner-about/img-07.jpg" alt="image">--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
-
-            <!-- Section end-->
 
             <br/><br/>
 
@@ -268,7 +129,7 @@
                                                 <div class="panel vstack gap-3 items-center text-center">
                                                     <img class="w-100 rounded" src="{{ url('/') }}/storage/{{ $team->image }}" alt="{{ $team->name }}">
                                                     <div class="panel vsatck gap-2">
-                                                        <h4 class="h3 m-0"><a href="#" class="text-none" data-uc-cursor="md bg-white opacity-10">{{ $team->name }}</a></h4>
+                                                        <h4 class="h3 m-0"><a href="{{ route("singleTeam", ['slug' => $team->slug ]) }}" class="text-none" data-uc-cursor="md bg-white opacity-10">{{ $team->name }}</a></h4>
                                                         <span class="fs-4">{{ $team->position }}</span>
                                                     </div>
                                                 </div>

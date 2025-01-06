@@ -16,15 +16,15 @@
                             <div class="lg:order-2">
                                 <div class="panel vstack gap-4 sm:gap-6 xl:gap-8">
                                     <div class="panel vstack items-center text-center gap-2 sm:gap-3 xl:gap-4" data-anime="targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 400});">
-                                        <h1 class="title h3 sm:h1 xl:display-5 m-0">Your Partner in Business <span class="d-inline-flex bg-contain pb-1 sm:pb-2 lg:pb-3" style="background-position: 50% 100%" data-src="../assets/images/common/line.svg" data-uc-img>Transformation</span></h1>
-                                        <p class="desc fs-5 lg:fs-3">Our business consulting services are rooted in a deep understanding of industry trends, best practices, and the latest technologies.</p>
-                                        <a class="btn btn-md xl:btn-lg btn-primary fs-5 sm:fs-4 xl:fs-3 mt-2" href="#">
+                                        <h1 class="title h3 sm:h1 xl:display-5 m-0">
+                                            MG Consulting LLC
+                                        </h1>
+                                        <p class="desc fs-5 lg:fs-3">
+                                            MG Consulting LLC is a registered consulting company in Azerbaijan since 2014. Our company provides various services (legal, accounting, project management, etc) to its clients, which are mostly diplomatic missions and international organizations located in Azerbaijan (UNDP, UNICEF, Swiss Embassy, Embassy of Japan, ICNL, USAID, GIZ, ICMDP, etc.).
+                                        </p>
+                                        <a class="btn btn-md xl:btn-lg btn-primary fs-5 sm:fs-4 xl:fs-3 mt-2" href="{{ route("contact") }}">
                                             <span> Get started</span>
                                         </a>
-                                        <div class="hstack justify-center gap-1 mt-2">
-                                            <img src="{{ asset('') }}assets/images/common/user-group.png" alt="user-group">
-                                            <span class="fs-6 lg:fs-5 fw-medium">Based on 4,2k+ reviews</span>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
                             <div class="lg:col-5">
                                 <div class="panel">
                                     <h3 class="h4 xl:h3 m-0 text-center lg:text-start">
-                                        Trusted by more than 500,00+ <br class="d-none sm:d-block">
+                                        Trusted by more than 800+ <br class="d-none sm:d-block">
                                         people across the globe
                                     </h3>
                                 </div>
@@ -62,19 +62,19 @@
                                     <div class="row child-cols-6 sm:child-cols justify-center text-center g-4 sm:g-6 xl:g-8 sep-y" data-uc-grid>
                                         <div>
                                             <div class="panel vstack items-center gap-1">
-                                                <h5 class="h3 xl:h1 ft-tertiary m-0 text-primary">40K +</h5>
+                                                <h5 class="h3 xl:h1 ft-tertiary m-0 text-primary">2K +</h5>
                                                 <p class="fs-6 xl:fs-3">Satisfied clients</p>
                                             </div>
                                         </div>
                                         <div>
                                             <div class="panel vstack items-center gap-1">
-                                                <h5 class="h3 xl:h1 ft-tertiary m-0 text-primary">250 +</h5>
+                                                <h5 class="h3 xl:h1 ft-tertiary m-0 text-primary">150 +</h5>
                                                 <p class="fs-6 xl:fs-3">Trusted patners</p>
                                             </div>
                                         </div>
                                         <div>
                                             <div class="panel vstack items-center gap-1">
-                                                <h5 class="h3 xl:h1 ft-tertiary m-0 text-primary">10K +</h5>
+                                                <h5 class="h3 xl:h1 ft-tertiary m-0 text-primary">1K +</h5>
                                                 <p class="fs-6 xl:fs-3">Projects</p>
                                             </div>
                                         </div>
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                         <div class="section-footer panel" data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;">
-                            <a class='btn btn-text fs-4 xl:fs-3 border-bottom gap-1 xl:gap-2 mt-1 text-primary' data-uc-cursor='md bg-white opacity-10' href='page-services.html'>
+                            <a class='btn btn-text fs-4 xl:fs-3 border-bottom gap-1 xl:gap-2 mt-1 text-primary' data-uc-cursor='md bg-white opacity-10' href='#'>
                                 <span>View all services</span>
                                 <i class="icon unicon-arrow-right"></i>
                             </a>

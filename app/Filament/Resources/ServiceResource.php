@@ -59,7 +59,7 @@ class ServiceResource extends Resource
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
-            ]);
+            ])->reorderable('sort_order')->defaultSort('created_at', 'desc');
     }
 
     public static function getRelations(): array

@@ -15,9 +15,7 @@
                                     </div>
                                 </div>
                                 <p class="fs-5 xl:fs-4">
-                                    A business consulting website typically offers <br class="d-none xl:d-block">
-                                    a range of services to help clients improve <br class="d-none xl:d-block">
-                                    e their businesses.
+                                    MG Consulting LLC is a registered consulting company in Azerbaijan since 2014.
                                 </p>
                                 <ul class="nav-x gap-1">
                                     <li>

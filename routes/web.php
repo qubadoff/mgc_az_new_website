@@ -9,4 +9,5 @@ Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/clients', [HomeController::class, 'clients'])->name('clients');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/news/{slug}', [HomeController::class, 'singleNews'])->name('singleNews');
+Route::get('/teams/{slug}', [HomeController::class, 'singleTeam'])->name('singleTeam');
 
